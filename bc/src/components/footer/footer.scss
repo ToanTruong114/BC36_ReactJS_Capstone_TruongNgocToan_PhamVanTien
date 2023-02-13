@@ -1,0 +1,104 @@
+#footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../../public/1858114.jpg) center / cover no-repeat;
+  font-family: "Vibur", sans-serif !important;
+
+  position: relative;
+
+  .navbar-brand {
+    color: #F4C430;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.6s;
+
+    &:hover {
+      color: #fff;
+      text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #F4C430,
+        0 0 82px #F4C430, 0 0 92px #F4C430, 0 0 102px #F4C430, 0 0 151px #F4C430;
+
+      // color: red;
+    }
+  }
+
+  h3 {
+    // font-size: 20px;
+    color: white;
+    font-weight: bolder;
+
+    
+  }
+
+  .partner {
+    @media screen and (max-width: 1200px) {
+      text-align: center;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin: 10px 0;
+
+      a {
+        position: relative;
+        color: #b61883;
+        font-size: 20px;
+        text-decoration: none;
+        transition: all 0.5s;
+        padding-bottom: 2px;
+
+        &::after {
+          content: "";
+          height: 2px;
+          width: 0;
+          left: 0;
+          bottom: 0;
+          background-color: #fff;
+          text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+            0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+          position: absolute;
+          transition: 0.5s;
+        }
+
+        &:hover {
+          color: #fff;
+          text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f09,
+            0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09, 0 0 151px #f09;
+
+          &::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-img {
+    .col {
+      text-align: center;
+
+      img {
+        box-shadow: 0 0 0 0px #b61883;
+        border-radius: 50%;
+        transition: 0.5s;
+
+        &:hover {
+          box-shadow: 0 0 0 3px #fff, 0 0 10px #fff, 0 0 21px #fff,
+            0 0 42px #f09, 0 0 82px #f09, 0 0 92px #f09, 0 0 102px #f09,
+            0 0 151px #f09;
+        }
+
+        @media screen and (max-width: 1199px) {
+          width: 100px;
+          height: 100px;
+        }
+
+        @media screen and (max-width: 575px) {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+}
