@@ -81,8 +81,10 @@ export default function AdminLayout() {
           style={{
             paddingRight: "10px",
             color: "white",
+            textAlign: "center",
             fontSize: "30px",
             fontWeight: "bold",
+            backgroundColor: "#b61883",
           }}
         >
           Cyber Cinema Management
@@ -104,10 +106,13 @@ export default function AdminLayout() {
         </Content>
         <Footer
           style={{
+            fontSize: "20px",
+            color: "white",
             textAlign: "center",
+            backgroundColor: "#b61883",
           }}
         >
-          @TruongNgocToan_BC36_CAPSTONE_ReactJS
+          Capstone ReactJS
         </Footer>
       </Layout>
     </Layout>
